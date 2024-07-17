@@ -1,5 +1,6 @@
 import Logo from "./Logo";
 import minicart from '../assets/mini-cart.svg'
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return ( 
@@ -15,10 +16,10 @@ const Header = () => {
             <div className="hearder">
                 <nav>
                     <ul className="ul-header">
-                        <li>Home</li>
-                        <li>Produtos</li>
-                        <li>Categorias</li>
-                        <li>Meus Pedidos</li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/produto'}>Produtos</Link></li>
+                        <li><Link to={'/categoria'}>Categorias</Link></li>
+                        <li><Link to={'/pedido'}>Meus Pedidos</Link></li>
                     </ul>
                 </nav>
             </div>

@@ -71,21 +71,82 @@ header{
   gap: 40px;
 }
 
-
+/* conteudo da home page*/
+.conteudo{
+  width: 100vw;
+  height: 640px;
+  display: flex;
+  background-color: #F5F5F5;
+}
+.coluna-conteudo{
+  width: 310px;
+  height: 352px;
+}
+.h1{
+  font-size: 16px;
+  color: #F6AA1C;
+  margin-left: 145px;
+  padding-top: 100px;
+}
+.h2{
+  width: 510px;
+  height: 32px;
+  font-size: 64px;
+  margin-left: 145px;
+  margin-top: 20px;
+}
+.texto1{
+  width: 495px;
+  height: 68px;
+  color: #474747;
+  margin-top: 140px;
+  margin-left: 145px;
+}
+button{
+  width: 220px;
+  height: 40px;
+  font-size: 16px;
+  margin-left: 145px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 8px;
+  color: #F5F5F5;
+  background-color: #C92071;
+  line-height: 24px;
+  cursor: pointer;
+}
+button:hover{
+  background-color: #991956;
+}
+.image{
+    width: 733.51px;
+    height: 431.61px;
+    margin-top: 40px;
+    margin-right: 40px;
+    border: none;
+    border-radius: 170px;
+    background-color: #F5F5F5;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(-19.34deg);
+    
+}
 /* Footer */ 
 .footer{
-  width: 1440px;
+  width: 1550px;
   height: 454px;
   display: flex;
-  margin-right: 400px;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0px;
   color: #F5F5F5;
   background-color: #1F1F1F;
-  padding-top: 72px;
-  gap: 280px;
+  padding: 72px 100px;
+  gap: 20px;
 }
 
 .logo2{
-  width: 253px;
+  width: 250px;
   height: 44px;
   margin-left: 100px;
 }
@@ -102,6 +163,7 @@ margin-left: 60px;
   margin-left: 38px;
 }
 .contato{
+  display: flex;
   font-size: 18px;
   margin-left: 38px;
 }
@@ -151,7 +213,7 @@ display: inline-block;
 .ul1{
   width: 135px;
   height: 228px;
-  margin-top: 20px;
+  margin-top: 15px;
   font-size: 16px;
   text-align: start;
   list-style: none;

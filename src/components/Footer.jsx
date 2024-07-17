@@ -4,6 +4,7 @@ import insta from "../assets/instagram.svg";
 import tt from "../assets/twitter.svg";
 
 const Footer = () => {
+
   return (
     <>
       <div className="footer">
@@ -28,7 +29,7 @@ const Footer = () => {
             </li>
           </ul>
           <hr />
-          <div className="p">&Copy;2024 Digital Store</div>
+          <div className="p">&copy;2024 Digital Store</div>
         </div>
         <div className="coluna1">
           <p className="informacao">Informação</p>
@@ -64,6 +65,8 @@ const Footer = () => {
       </div>
     </>
   );
+  
 };
 
-export default Footer;
+export default Footer; 
+
