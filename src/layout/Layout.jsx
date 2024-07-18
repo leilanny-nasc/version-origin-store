@@ -1,6 +1,7 @@
 import Conteudo from "../components/Conteudo";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import Oferta from "../components/Oferta";
 
 
 const Layout = ({children}) => {
@@ -9,7 +10,9 @@ const Layout = ({children}) => {
             <Header/>
             {children}
             <Conteudo/>
+            <Oferta/>
             <Footer/>
+            
         </>
     );
 }

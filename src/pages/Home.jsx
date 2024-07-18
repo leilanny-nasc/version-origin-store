@@ -1,6 +1,6 @@
 const Home = () => {
     return ( 
-        console.log('e num que deu bom...!!!')
+       <h1>Oi</h1>
      );
 }
  

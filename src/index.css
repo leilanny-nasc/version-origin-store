@@ -72,15 +72,18 @@ header{
 }
 
 /* conteudo da home page*/
-.conteudo{
+.conteudoCentro{
   width: 100vw;
   height: 640px;
   display: flex;
   background-color: #F5F5F5;
+  text-align: start;
+  justify-content: space-between;
 }
 .coluna-conteudo{
   width: 310px;
   height: 352px;
+
 }
 .h1{
   font-size: 16px;
@@ -124,12 +127,61 @@ button:hover{
     margin-top: 40px;
     margin-right: 40px;
     border: none;
-    border-radius: 170px;
-    background-color: #F5F5F5;
+    border-radius: 140px;
+  
     background-position: center;
     background-size: cover;
     transform: rotate(-19.34deg);
-    
+    text-align: center;
+    justify-content: center;
+}
+
+/* ofertas */
+.ofertaPage{ /*div-oferta*/
+  width: 100vw;
+  height: 553px;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.ci-oferta{ /*ci-oferta*/
+  position: relative;
+}
+.texto-oferta{
+  width: 589px;
+  height: 341px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 89px;
+  line-height: 40px;
+}
+.imagem-oferta{ 
+  width: 446px;
+  height: 446px;
+  border: #1F1F1F;
+  align-items: center;
+  border-radius: 400px;
+  margin-top: 40px;
+  background-color: #474747;
+  background-position: center;
+  background-size: cover;
+  background-image: url(/src/assets/jordan-colecionador.png);
+}
+.texto01{ /*texto01*/
+  font-size: 16px;
+  color:#C92071;
+}
+.texto02{ /*texto02*/
+  font-size: 48px;
+  color: #474747;
+  line-height: 50px;
+  letter-spacing: 1px;
+  margin-top: 10px;
+}
+.texto03{
+  font-size: 16px;
+  color: #474747;
+  line-height: 28px;
+  margin-top: 20px;
 }
 /* Footer */ 
 .footer{

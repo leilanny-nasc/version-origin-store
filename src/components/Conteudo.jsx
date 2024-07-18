@@ -13,6 +13,13 @@ const Conteudo = () => {
                 <div className="image">
                         <img src={tenis} alt="tenis do jordan" />
                 </div>
+              
+                <div className="eclipse">
+                    <div className="eclipse1"></div>
+                    <div className="eclipse2"></div>
+                    <div className="eclipse3"></div>
+                    <div className="eclipse4"></div>
+                </div>
             </div>
         </>
      );

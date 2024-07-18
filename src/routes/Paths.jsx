@@ -11,7 +11,7 @@ const Paths = () => {
             <BrowserRouter>
                 <Routes>
                     <Route index element={<Home/>}>
-                        <Route path="/produtos" element={<Produto/>}/>
+                        <Route path="/produto" element={<Produto/>}/>
                         <Route path="/categoria" element={<Categoria/>}/>
                         <Route path="/pedido" element={<Pedido/>}/>
                     </Route>
