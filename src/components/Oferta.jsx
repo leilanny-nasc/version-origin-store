@@ -19,6 +19,9 @@ const Oferta = () => {
         <div><button>Ver Oferta</button></div>
         </div>
     </div>
+    <div>
+      
+    </div>
     </div>
   );
 };

@@ -136,6 +136,30 @@ button:hover{
     justify-content: center;
 }
 
+/* conteudo central parte 2*/
+.card{
+  width: 292px;
+  height: 321px;
+  top: 1699px;
+  left: 100px;
+  color: lightgrey;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+}
+.tenis-card{
+  width: 248px;
+  height: 134px;
+  top: 1862px;
+  left: 90px;
+  transform: rotate(-30deg);
+}
+.card-produto{
+  width: 292px;
+  height: 439px;
+  top: 1699px;
+  left: 100px;
+
+}
 /* ofertas */
 .ofertaPage{ /*div-oferta*/
   width: 100vw;
